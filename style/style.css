@@ -1,0 +1,53 @@
+#navbar{
+    display: flex;
+    height: 100px;
+    width: 98%;
+    border: 1px solid salmon;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: rgb(253, 210, 158);
+}
+#search_input{
+    width: 80%;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+#container{
+    display: flex;
+}
+#sidebar{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid black; */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(253, 210, 158);
+    margin-left: 10px;
+}
+#sidebar>h3{
+    background-color: rgb(33, 197, 197);
+}
+#sidebar>h3:hover{
+    cursor: pointer;
+    font-size: 22px;
+}
+.news{
+    height: 150px;
+    width: 70%;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+#coverImg{
+    height: 100%;
+    width: 30%;
+}
+#innerDiv{
+    padding: 10px;
+}
